@@ -8,6 +8,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "deploy": "node scripts/gh-pages-deploy.js"
   },
+  "type": "module",
   "dependencies": {
     "moment": "^2.29.4",
     "vue": "^3.2.37"

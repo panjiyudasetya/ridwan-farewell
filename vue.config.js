@@ -1,3 +1,4 @@
 module.exports = {
-    publicPath: '/ridwan/'
+    publicPath: '/assets/',
+    baseUrl: '/ridwan/',
 }
