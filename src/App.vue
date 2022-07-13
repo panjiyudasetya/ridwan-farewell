@@ -191,7 +191,7 @@ a,
 
 .marquee {
   /* box-sizing: border-box; */
-  animation: marquee 12s linear infinite;
+  animation: marquee 25s linear infinite;
   display: block;
   /* overflow: hidden; */
   padding-left: 30px;
