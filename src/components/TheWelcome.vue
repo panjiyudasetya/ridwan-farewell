@@ -8,7 +8,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <img :alt="item.from" :src="item.icon" width="35" height="35" />
     </template>
 
-    <blockquote class="blur">
+    <blockquote :class="farewellDate ? '' : 'blur'">
       {{ item.message }}
       <span>- {{ item.from }} -</span>
     </blockquote>
@@ -22,6 +22,7 @@ export default {
   data() {
     return {
       messages: messageData,
+      farewellDate: moment().isSame("2022-07-15", "day"),
     };
   },
 };
