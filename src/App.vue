@@ -170,6 +170,7 @@ a,
   margin-top: 10px;
   font-size: 20px;
   font-weight: 500;
+  color: #212121;
 }
 
 .time-unite-value {
@@ -177,6 +178,7 @@ a,
   margin-bottom: 10px;
   font-size: 50px;
   font-weight: 500;
+  color: #212121;
 }
 
 .main-content {
