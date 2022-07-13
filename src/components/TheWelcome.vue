@@ -8,7 +8,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <img :alt="item.from" :src="item.icon" width="35" height="35" />
     </template>
 
-    <blockquote>
+    <blockquote class="blur">
       {{ item.message }}
       <span>- {{ item.from }} -</span>
     </blockquote>
@@ -16,6 +16,7 @@ import WelcomeItem from "./WelcomeItem.vue";
 </template>
 <script>
 import messageData from "../data/messages.json";
+import moment from "moment";
 
 export default {
   data() {
@@ -53,5 +54,10 @@ blockquote span {
   font-style: normal;
   font-weight: bold;
   margin-top: 1em;
+}
+
+.blur {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 </style>
