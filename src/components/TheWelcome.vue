@@ -10,7 +10,7 @@ import WelcomeItem from "./WelcomeItem.vue";
 
     <blockquote>
       {{ item.message }}
-      <span>{{ item.from }}</span>
+      <span>- {{ item.from }} -</span>
     </blockquote>
   </WelcomeItem>
 </template>
